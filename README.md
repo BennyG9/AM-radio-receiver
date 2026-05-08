@@ -54,10 +54,6 @@ Here is the KiCAD schematic (also available for download in this repository):
   <img src="media/radio_schem.jpg" width="500"/>
 </div>
 
----
-
-## Hardware
-
 ### Main Components
 
 | Component               | Description                                   |
@@ -70,25 +66,6 @@ Here is the KiCAD schematic (also available for download in this repository):
 | Electrolytic Capacitors | Coupling and power filtering                  |
 | Ceramic Capacitors      | RF filtering and tuning                       |
 
----
-
-## Schematic
-
-### KiCad Schematic
-
-The full schematic is available in:
-
-```text
-hardware/schematic/
-```
-
-Preview:
-
-<div align="center">
-  <img src="hardware/schematic/schematic_preview.png" width="700"/>
-</div>
-
----
 
 ## Build Process
 
