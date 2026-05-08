@@ -28,7 +28,7 @@ The recovered audio signal is amplified using an LM386 audio amplifier IC to dri
 Here is the KiCAD schematic (also available for download in this repository): 
 
 <div align="center">
-  <img src="media/radio_schem.jpg" width="500"/>
+  <img src="media/radio_schem.jpg" width="700"/>
 </div>
 
 ### Main Components
