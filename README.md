@@ -10,7 +10,6 @@ A tunable AM radio receiver built using analog electronics principles including 
 ## How it Works
 
 The ferrite rod antenna coil and variable capacitor form a parallel LC resonant circuit:
-<br>
 
 $$
 f = \frac{1}{2\pi\sqrt{LC}}
