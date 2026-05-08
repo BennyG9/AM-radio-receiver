@@ -16,7 +16,6 @@ $$
 f = \frac{1}{2\pi\sqrt{LC}}
 $$
 
-<br>
 By adjusting the capacitance, the resonant frequency changes, allowing the receiver to tune to different AM radio stations.
 
 AM radio stations transmit a high-frequency carrier whose amplitude varies according to the audio signal.
