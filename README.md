@@ -6,6 +6,7 @@ A tunable AM radio receiver built using analog electronics principles including 
   <img src="media/radio_pic.jpg" width="500"/>
 </div>
 
+[AM Radio Demo Video](https://youtu.be/ojHJdK3EBfc)
 
 ## How it Works
 
