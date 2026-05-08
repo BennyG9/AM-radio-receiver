@@ -6,29 +6,6 @@ A tunable AM radio receiver built using analog electronics principles including 
   <img src="media/radio_pic.jpg" width="500"/>
 </div>
 
----
-
-## Overview
-
-This project implements a functional AM (Amplitude Modulation) radio receiver capable of tuning and demodulating commercial AM broadcast signals.
-
-The radio uses:
-
-* A ferrite rod antenna and LC resonant tank for frequency selection
-* A germanium diode envelope detector for AM demodulation
-* An LM386 audio amplifier to drive an 8-ohm speaker
-* A variable capacitor for manual station tuning
-
-## Features
-
-* Tunable AM broadcast reception
-* Ferrite rod antenna front-end
-* Analog envelope detection
-* Adjustable tuning capacitor
-* Audio amplification using LM386
-* Fully discrete analog signal chain
-
----
 
 ## How it Works
 
@@ -67,77 +44,24 @@ Here is the KiCAD schematic (also available for download in this repository):
 | Ceramic Capacitors      | RF filtering and tuning                       |
 
 
-## Build Process
-
-### Prototype Phase
-
-* Initial RF front-end tested on breadboard
-* Audio amplifier validated independently
-* RF grounding and resonant behavior debugged iteratively
-
-### Final Assembly
-
-* Circuit assembled on protoboard
-* Ferrite antenna integrated into resonant tank
-* Manual tuning calibrated across AM band
-
----
-
-## Key Engineering Challenges
+## Main Challenges
 
 * Achieving stable LC resonance in the AM broadcast band
-* Preventing RF tank loading
-* Managing grounding and parasitic coupling
+* Managing grounding
 * Debugging analog signal paths without oscilloscope access
 * Proper antenna and detector coupling
 
----
-
-## Skills Demonstrated
+## Engineering Focus Area
 
 * Analog circuit design
-* RF fundamentals
 * Resonant circuit analysis
 * Signal demodulation
-* Audio amplifier integration
-* Schematic capture in KiCad
+* Analog audio amplification
+* KiCAD schematic design
 * Hardware debugging and prototyping
 
----
 
 ## Future Improvements
 
 * Custom PCB design
-* Automatic gain control (AGC)
-* Regenerative receiver architecture
-* Digital frequency display
 * Improved selectivity and filtering
-
----
-
-## Media
-
-### Demonstration Video
-
-(Add project demo video here)
-
-### Audio Reception Samples
-
-(Add recordings of received stations)
-
----
-
-## Repository Contents
-
-| Folder        | Purpose                            |
-| ------------- | ---------------------------------- |
-| `docs/`       | Documentation and images           |
-| `hardware/`   | KiCad schematic and hardware files |
-| `simulation/` | LTspice or MATLAB analysis         |
-| `media/`      | Videos and audio demonstrations    |
-
----
-
-## Author
-
-Benjamin H. Goldstein
