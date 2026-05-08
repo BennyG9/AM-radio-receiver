@@ -35,9 +35,9 @@ The radio uses:
 The ferrite rod antenna coil and variable capacitor form a parallel LC resonant circuit:
 
 
-[
+$$
 f = \frac{1}{2\pi\sqrt{LC}}
-]
+$$
 
 
 By adjusting the capacitance, the resonant frequency changes, allowing the receiver to tune to different AM radio stations.
