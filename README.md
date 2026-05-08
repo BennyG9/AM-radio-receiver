@@ -48,6 +48,12 @@ A germanium diode rectifies the RF waveform, while an RC filter extracts the aud
 
 The recovered audio signal is amplified using an LM386 audio amplifier IC to drive an 8-ohm speaker.
 
+Here is the KiCAD schematic (also available for download in this repository): 
+
+<div align="center">
+  <img src="media/radio_schem.jpg" width="500"/>
+</div>
+
 ---
 
 ## Hardware
