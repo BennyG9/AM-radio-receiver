@@ -47,11 +47,11 @@ Here is the KiCAD schematic (also available for download in this repository):
 ## Main Challenges
 
 * Achieving stable LC resonance in the AM broadcast band
-* Managing grounding
+* Managing RF grounding and signal integrity
 * Debugging analog signal paths without oscilloscope access
 * Proper antenna and detector coupling
 
-## Engineering Focus Area
+## Engineering Focus Areas
 
 * Analog circuit design
 * Resonant circuit analysis
