@@ -18,9 +18,7 @@ $$
 
 By adjusting the capacitance, the resonant frequency changes, allowing the receiver to tune to different AM radio stations.
 
-AM radio stations transmit a high-frequency carrier whose amplitude varies according to the audio signal.
-
-A germanium diode rectifies the RF waveform, while an RC filter extracts the audio envelope.
+AM radio stations transmit a high-frequency carrier whose amplitude varies according to the audio signal. A germanium diode rectifies the RF waveform, extracting the audio envelope.
 
 The recovered audio signal is amplified using an LM386 audio amplifier IC to drive an 8-ohm speaker.
 
